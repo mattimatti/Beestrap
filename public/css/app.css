@@ -1,0 +1,170 @@
+@import "bootstrap.css";
+
+@import "bootstrap-responsive.css";
+
+
+body {
+	-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+}
+
+
+#wrapper {
+
+
+	left: 0;
+	width: 100%;
+	height:100%;
+	overflow: auto;
+	border:1px solid red;
+}
+
+#scroller {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	padding: 0;
+}
+
+#main {
+  height:100%;
+  display:block;
+}
+
+#page {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	box-flex: 1;
+	position: relative;
+	height:100%;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.stage-left {
+	left: -150%;
+}
+
+.stage-right {
+	left: 150%;
+}
+
+.stage-center {
+	top: 0;
+	left: 0;
+}
+
+.transition {
+	-moz-transition-duration: .375s;
+	-webkit-transition-duration: .375s;
+	-o-transition-duration: .375s;
+}
+
+.tabletmargin {
+	padding-top: 80px;
+	/* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+.breadcrumb {
+	background-color: #ccc;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #fff;
+	text-shadow: none;
+}
+
+.breadcrumb a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.mainnav .icon-chevron-right {
+	float: right;
+	margin-top: 2px;
+	margin-right: -6px;
+	opacity: .25;
+}
+
+
+
+
+
+.white {
+	background-color: white;
+}
+.container-fluid.tablet {
+  margin-top:41px;
+   margin-top:61px;
+}
+
+/*
+
+.container-fluid.tablet {
+	margin-top:41px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.sidebar a {
+	-webkit-border-radius: 0px 0px 0 0 !important;
+	-moz-border-radius: 0px 0px 0 0 !important;
+	border-radius: 0px 0px 0 0 !important;
+}
+
+.content {
+	margin-left: 0% !important;
+	width: 76.5% !important;
+}
+
+*/
+
+#main {
+
+}
+
+.db {
+	display: block;
+}
+
+.mt0 {
+	margin-top: 0px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
+.mt60 {
+	margin-top: 60px;
+}
+
+.mt70 {
+	margin-top: 70px;
+}
+
+.mb0 {
+	margin-bottom: 0px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
